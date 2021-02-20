@@ -1,0 +1,68 @@
+// Font sizes
+$headers-responsive: (null: 1.1rem, $breakpoint-width-mobile: 1.2rem, $breakpoint-width-tablet: 1.25rem, $breakpoint-width-desktop: 1.35rem, $breakpoint-width-huge: 1.5rem)
+
+@mixin font-scale($font-scaler, $multiplier: 1, $margin-height-multiplier: 1, $line-height-multiplier: 1)
+    @each $breakpoint, $value in $font-scaler
+        @if $breakpoint == null
+            font-size: $value * $multiplier
+            line-height: $value * $multiplier * $line-height-multiplier
+            margin: 0.75em 0 $value * $margin-height-multiplier 0em
+        @else
+            @media (min-width: $breakpoint)
+                font-size: $value * $multiplier
+                line-height: $value * $multiplier * $line-height-multiplier
+                margin: $value * $margin-height-multiplier 0 $value * $margin-height-multiplier 0em
+
+h1
+    @include font-scale($headers-responsive, 4, 2)
+h2
+    @include font-scale($headers-responsive, 2.5, 1.5)
+h3
+    @include font-scale($headers-responsive, 1.9, 1)
+h4
+    @include font-scale($headers-responsive, 1.75, 1)
+h5
+    @include font-scale($headers-responsive, 1.5, 1)
+h6,
+    @include font-scale($headers-responsive, 1.25, 1)
+p, body
+    @include font-scale($headers-responsive, 1, 1, 1.25)
+
+// Font margins
+h1, h2, h3, h4, h5, h6
+  // margin: 0.75em 0 1em 0em
+  letter-spacing: -0.03em
+
+body
+  font-family: "ARS Maquette Pro", Helvetica, Arial, sans-serif
+  font-weight: 100
+  line-height: 1.25em
+  color: $font-color-dark
+
+.bubble
+  @include font-scale($headers-responsive, 1.6, 1, 1.75)
+  font-family: "ARS Maquette Pro", Helvetica, Arial, sans-serif
+  font-weight: 200
+  letter-spacing: 0.00em
+
+a, a:visited
+  color: $font-color-normal-link
+  text-decoration: none
+  display: block
+  margin-top: 0.5em
+
+@media (max-width: $breakpoint-width-tablet)
+  a, a:visited
+    margin-top: 1.5em
+
+a:hover, a:target
+  color: $font-color-normal-link-hover
+
+a[rel="external"]:after
+    content: ""
+    background: url(../images/external.svg) center right no-repeat
+    padding-right: 20px
+
+p > a
+  display: inline
+  margin: 0

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="215.07474mm"
+   height="50.161713mm"
+   viewBox="0 0 215.07474 50.161714"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (c497b03c, 2020-09-10)"
+   sodipodi:docname="scribble2.svg"
+   inkscape:export-filename="/Users/ali/Desktop/scribble.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient995">
+      <stop
+         style="stop-color:#f600ff;stop-opacity:1"
+         offset="0"
+         id="stop973" />
+      <stop
+         style="stop-color:#5a51fc;stop-opacity:1"
+         offset="0.14665291"
+         id="stop975" />
+      <stop
+         style="stop-color:#3f82ec;stop-opacity:1"
+         offset="0.24568523"
+         id="stop977" />
+      <stop
+         style="stop-color:#3acadb;stop-opacity:1"
+         offset="0.3505542"
+         id="stop979" />
+      <stop
+         style="stop-color:#3de383;stop-opacity:1"
+         offset="0.42196083"
+         id="stop981" />
+      <stop
+         style="stop-color:#7ddd4e;stop-opacity:1"
+         offset="0.52090365"
+         id="stop983" />
+      <stop
+         style="stop-color:#88d23e;stop-opacity:1"
+         offset="0.59575975"
+         id="stop985" />
+      <stop
+         style="stop-color:#d3e214;stop-opacity:1"
+         offset="0.6750381"
+         id="stop987" />
+      <stop
+         style="stop-color:#e5ad44;stop-opacity:1"
+         offset="0.74396801"
+         id="stop989" />
+      <stop
+         style="stop-color:#e48743;stop-opacity:1"
+         offset="0.83158958"
+         id="stop991" />
+      <stop
+         style="stop-color:#ff4d4b;stop-opacity:1"
+         offset="1"
+         id="stop993" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient995"
+       id="linearGradient857-1"
+       gradientUnits="userSpaceOnUse"
+       x1="-7.0443554"
+       y1="56.411884"
+       x2="214.05937"
+       y2="119.59296"
+       gradientTransform="translate(1.7725892,-1.5978087)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.6063874"
+     inkscape:cx="452.81331"
+     inkscape:cy="126.76094"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1390"
+     inkscape:window-height="878"
+     inkscape:window-x="50"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.80312561,-88.21302)">
+    <path
+       style="fill:#000000;fill-opacity:0;stroke:url(#linearGradient857-1);stroke-width:1.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1.2354264,107.9877 C 12.615661,98.672426 36.019665,87.061042 37.493914,89.186999 38.968163,91.312956 9.4637161,133.57503 11.7101,137.52735 c 3.787563,2.94335 61.800252,-40.058692 66.025704,-37.617612 4.682646,4.640662 -22.03996,36.811112 -22.03996,36.811112 5.7518,-15.2428 71.647376,-47.227767 82.247496,-47.492827 5.56478,3.33161 -18.22804,28.321337 -18.80069,34.601677 9.49803,1.96435 62.55466,-36.91486 68.07044,-34.844686 5.44814,3.077955 -15.03221,48.718606 -16.93018,37.375916 -0.99878,-5.22838 45.54905,-8.36579 45.54905,-8.36579"
+       id="path847-1"
+       sodipodi:nodetypes="czcccccccc" />
+  </g>
+</svg>

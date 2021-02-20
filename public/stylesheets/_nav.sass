@@ -1,0 +1,106 @@
+
+.nav-bar
+  background: linear-gradient(to right, rgba(37,181,255,1) 0%, rgba(140,140,255,1) 50%, rgba(254,116,183,1) 100%) left bottom #7770 no-repeat
+  background-size: 100% 8px
+  padding-bottom: 8px
+
+.menu
+  max-width: $breakpoint-width-huge
+  margin: 0 auto
+  background-color: white
+  color: $font-color-dark
+  font-weight: 400
+
+.menu-sitename
+  float: left
+  display: inline
+
+.menu-list
+  float: right
+
+.menu-items
+  display: inline
+  font-weight: 400
+  float: right
+  border-top: none
+
+.menu-items ul
+  padding: 0
+  margin: 0
+
+.menu-items li
+  display: inline-block
+  margin-right: 10px
+  margin-left: 10px
+
+.menu a, .menu a:visited
+  color: $font-color-dark-hover
+
+.menu a:hover, .menu a:target
+  color: $font-color-dark
+
+a.sitename, a:visited.sitename
+  color: $font-color-dark-hover
+
+.menu-items a
+  text-decoration: none
+  color: $font-color-dark
+  margin: 0
+  
+.show, .hide
+  display: none
+  padding-left: 15px
+  background-color: transparent
+  background-repeat: no-repeat
+  background-position: center left
+  color: $font-color-dark
+  margin: 0
+
+.show
+  //background-image: url(assets/down-arrow-icon.png)
+
+.hide
+  //background-image: url(assets/up-arrow-icon.png)
+
+@media only screen and (max-width: 800px)
+  .menu
+    position: relative
+    width: 100%
+
+  .sitename
+    margin-left: 0px
+
+  .menu-items
+    display: none
+    width: 100%
+    float: right
+    margin-top: 20px
+    padding: 0
+    background-color: #ffffff
+    border-top: solid
+    border-width: 1px
+    border-color: f3f3f3
+
+  .menu-items ul li
+    display: block
+    text-align: left
+    line-height: 1.5em
+    margin: 0px
+    padding: 10px 0px 10px 0px
+
+  .show, .hide
+    position: relative
+    top: 0
+    right: 15px
+
+  .show
+    display: inline-block
+
+  .hide
+    display: none
+
+  #menu:target .show
+    display: none
+
+  #menu:target .hide, #menu:target .menu-items
+    display: inline-block
